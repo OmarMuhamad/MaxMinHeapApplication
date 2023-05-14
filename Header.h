@@ -54,6 +54,7 @@ public:
 		return department;
 	}
 };
+
 // return number of students in the file
 int students();
 
