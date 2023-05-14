@@ -19,7 +19,7 @@ int main(){
 			loadStudents(StudentsList);
 			while (true) {
 				int choice1;
-				cout << "Choose one of the following options:\n1 - Add student\n2 - Print All (sorted by gpa)\n3 - Main Menu ";
+				cout << "Choose one of the following options:\n1 - Add student\n2 - Print All (sorted by gpa)\n3 - Main Menu\n";
 				cin >> choice1;
 				if (choice1 == 1) {
 					string name, department; double GPA; int id;
@@ -48,7 +48,7 @@ int main(){
 			Student* StudentsList = new Student[NumberOfStudents];
 			loadStudents(StudentsList);
 			while (true) {
-				cout << "Choose one of the following options:\n1 - Add student\n2 - Print All (sorted by gpa)\n3 - Main Menu ";
+				cout << "Choose one of the following options:\n1 - Add student\n2 - Print All (sorted by gpa)\n3 - Main Menu\n";
 				cin >> choice1;
 				if (choice1 == 1) {
 					string name, department; double GPA; int id;
